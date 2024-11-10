@@ -7,18 +7,18 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.only(
+      padding: const EdgeInsets.only(
         top: 24,
         bottom: 24,
         left: 16,
       ),
       decoration: BoxDecoration(
-        color: Color(0xFFffcd7a),
+        color: const Color(0xFFffcd7a),
         borderRadius: BorderRadius.circular(16),
       ),
       child: Column(crossAxisAlignment: CrossAxisAlignment.end, children: [
         ListTile(
-          title: Text(
+          title: const Text(
             'Flutter Tips',
             style: TextStyle(
               color: Colors.black,
@@ -37,7 +37,7 @@ class NoteItem extends StatelessWidget {
           ),
           trailing: IconButton(
               onPressed: () {},
-              icon: Icon(
+              icon: const Icon(
                 FontAwesomeIcons.trash,
                 color: Colors.black,
                 size: 24,
